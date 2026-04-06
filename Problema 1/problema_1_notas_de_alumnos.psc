@@ -3,7 +3,7 @@ Algoritmo problema_1_notas_de_alumnos
 	Definir i, j, cantidad, aprobados, reprobados Como Entero
 	Definir nombres, nombre, textoNota, letra Como Cadena
 	Definir notas, promedio, sumaPromedios, promedioCurso Como Real
-	Definir nombreValido, numeroValido Como Lógico
+	Definir nombreValido, numeroValido Como Lï¿½gico
 	aprobados <- 0
 	reprobados <- 0
 	sumaPromedios <- 0
@@ -43,7 +43,7 @@ Algoritmo problema_1_notas_de_alumnos
 			Mientras numeroValido=Falso Hacer
 				Escribir 'Nota ', k, ' (1 a 7): '
 				Leer textoNota
-				// validación para que sea número
+				// validaciï¿½n para que sea nï¿½mero
 				numeroValido <- Verdadero
 				Para j<-1 Hasta Longitud(textoNota) Hacer
 					letra <- Subcadena(textoNota,j,j)
@@ -54,8 +54,8 @@ Algoritmo problema_1_notas_de_alumnos
 				Si numeroValido Entonces
 					nota <- ConvertirANumero(textoNota)
 					Si nota<1 O nota>7 Entonces
-						numeroValido <- Falso // conversión de string a número
-						Escribir 'Nota fuera de rango. Ingrese entre 1 y 7' // validación si opción ingresada está en el rango
+						numeroValido <- Falso // conversiï¿½n de string a nï¿½mero
+						Escribir 'Nota fuera de rango. Ingrese entre 1 y 7' // validaciï¿½n si opciï¿½n ingresada estï¿½ en el rango
 					FinSi
 				SiNo
 					Escribir 'Debe ingresar solo numeros'
@@ -93,5 +93,5 @@ Algoritmo problema_1_notas_de_alumnos
 	Escribir 'Cantidad de REPROBADOS: ', reprobados
 	Escribir '*****************************'
 	Escribir 'Promedio del Curso: ', promedioCurso
-	Escribir '¡Gracias!'
+	Escribir 'Â¡Gracias!'
 FinAlgoritmo
