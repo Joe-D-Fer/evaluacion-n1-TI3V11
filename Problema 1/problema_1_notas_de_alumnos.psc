@@ -53,9 +53,9 @@ Algoritmo problema_1_notas_de_alumnos
 				FinPara
 				Si numeroValido Entonces
 					nota <- ConvertirANumero(textoNota)
-					Si nota<1 O nota>7 Entonces // conversión de string a número
-						numeroValido <- Falso // validación si opción ingresada está en el rango
-						Escribir 'Nota fuera de rango. Ingrese entre 1 y 7'
+					Si nota<1 O nota>7 Entonces
+						numeroValido <- Falso // conversión de string a número
+						Escribir 'Nota fuera de rango. Ingrese entre 1 y 7' // validación si opción ingresada está en el rango
 					FinSi
 				SiNo
 					Escribir 'Debe ingresar solo numeros'
