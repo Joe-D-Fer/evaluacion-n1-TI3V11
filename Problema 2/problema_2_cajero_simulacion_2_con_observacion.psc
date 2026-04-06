@@ -1,5 +1,5 @@
 Algoritmo problema_2_cajero_simulacion
-	//observación: el bloque de "¿Desea realizar otra operación?" de las líneas 50-65, 85-100, 114-129 se repite inecesariamente debido a un bug de PSeInt que no permite dibujar el diagrama de flujo cuando hay instrucciones después del bloque "Segun" en línea 133
+	//observación: el bloque de "¿Desea realizar otra operación?" de las líneas 50-65, 85-100, 114-129 se repite innecesariamente debido a un bug de PSeInt que no permite dibujar el diagrama de flujo cuando hay instrucciones después del bloque "Segun" en línea 133
 	// Variables principales
 	Definir saldo, monto Como Real
 	Definir opc Como Cadena
